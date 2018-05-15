@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url('flower.jpg') no-repeat;
+	background-size: cover; 
+}
+nav{
+	width: 100%;
+	height:  55px;
+	background: rgb(114, 55, 40);
+}
+
+nav p {
+	font-family: sans-serif;
+	color: rgb(255, 239, 198);
+	float: left;
+	font-size: 24px;
+	line-height: 55px;
+	padding:  0px 20px;
+}
+nav ul{
+	float: left
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+nav ul li a {
+	display: block;
+	font-family: sans-serif;
+	color: rgb(255, 239, 198);
+	font-size: 18px;
+	padding: 19.5px 14px;
+	text-decoration: none;
+}
+nav ul li ul {
+	display: none;
+	position: absolute;
+	background: rgb(114, 55, 40);
+	border-radius: 0px 0px 4px 4px;
+}
+nav ul li:hover ul {
+	display: block;
+	cursor: pointer;
+}
+nav ul li ul li  {
+	width: 180px;
+	border-radius: 4px; 
+}
+nav ul li ul li a:hover {
+	background-color: rgba(255, 197, 25, 0.48); 
+} 
+input.search {
+	background: url('search.png') no-repeat;
+	background-size: 20px;
+	background-position: 10px 6px;
+	background-color: rgb(255, 239, 198);
+	padding: 10px 24px 8px 40px;
+	border-radius: 25px;
+	margin-top: 8.5px;
+	margin-left: 600px;
+}
+.EDFORM {
+	margin-left: 40px;
+	position: absolute;
+	background:rgba(255, 168, 81, 0.42);
+	width: 850px;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.4)
+}
+h1 {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+input.editform {
+	width: 300px;
+	height: 30px;
+	padding-left: 20px;
+	background-color: rgb(255, 239, 198);
+	border-radius: 4px;
+	margin-bottom: 10px;
+	margin-left: 70px;
+	font-size: 20px;
+}
+span.editformtext {
+	margin-left: 50px;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+}
+input.editform2 {
+	width: 300px;
+	height: 30px;
+	padding-left: 20px;
+	background-color: rgb(255, 239, 198);
+	border-radius: 4px;
+	margin-bottom: 10px;
+	margin-left: 70px;
+	font-size: 20px;
+}
+span.editformtext2 {
+	margin-left: 260px;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+}
+span.editformtext3 {
+	margin-left: 225px;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+}
+select.editformoption {
+	width: 325px;
+	height: 30px;
+	padding-left: 20px;
+	margin-left: 70px;
+	margin-bottom: 50px;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: rgb(255, 239, 198);
+}
+.savebut {
+	background-color: rgb(255, 239, 198);
+	padding: 10px 40px;
+	border-radius: 4px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: black; 
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 280px;
+}
+.savebut:hover {
+	background-color: rgb(255, 184, 91);
+	padding: 10px 40px;
+	border-radius: 4px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: black; 
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 280px;
+}
+.profimg{
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.button_1{
+background-color: pink;
+border:pink;
+border-style:groove;
+font-size:12px;
+padding: 5px 19px 3px 35px;
+border-radius: 25px;
+margin-bottom: 5px;
+}
